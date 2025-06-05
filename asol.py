@@ -30,4 +30,4 @@ def up():
     link = save_file_to_gd(file.filename)
     return link
 
-app.run()
+app.run(host='0.0.0.0')
